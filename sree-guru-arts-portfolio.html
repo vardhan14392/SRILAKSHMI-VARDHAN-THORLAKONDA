@@ -1,0 +1,2209 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Sree Guru Arts | Master Temple Artist THORLAKONDA GURAVAIAH</title>
+  <meta name="description" content="Preserving sacred traditions through divine temple art, temple architecture design, sacred sculptures, idol design, wall murals, and ornate devotional artwork by master artist THORLAKONDA GURAVAIAH." />
+  <meta property="og:title" content="Sree Guru Arts | Divine Art & Temple Architecture" />
+  <meta property="og:description" content="Traditional & modern temple artwork, sacred stone/cement sculptures, temple murals, and bespoke devotional art by THORLAKONDA GURAVAIAH." />
+
+  <!-- Google Fonts: Cinzel, Playfair Display, and Poppins -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@500;600;700;800;900&family=Playfair+Display:ital,wght@0,600;0,700;1,500&family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet" />
+
+  <!-- Font Awesome 6 CDN -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+  <style>
+    /* CSS Variables for Sacred Color Palette */
+    :root {
+      --color-gold: #D4AF37;
+      --color-gold-hover: #b89325;
+      --color-gold-light: #FAF4DE;
+      --color-saffron: #C85A17;
+      --color-saffron-dark: #A3450F;
+      --color-saffron-light: #FDEBD9;
+      --color-bg-ivory: #FDFBF7;
+      --color-surface-ivory: #F8F3E6;
+      --color-charcoal: #1C1917;
+      --color-maroon: #3B1414;
+      --color-maroon-dark: #270C0C;
+      --color-white: #FFFFFF;
+      --color-border: #E7E0D3;
+      --color-border-gold: rgba(212, 175, 55, 0.4);
+      --font-heading: 'Cinzel', 'Playfair Display', serif;
+      --font-body: 'Poppins', sans-serif;
+      --shadow-sm: 0 1px 3px rgba(0,0,0,0.06);
+      --shadow-md: 0 4px 12px rgba(44, 24, 16, 0.08);
+      --shadow-lg: 0 10px 25px rgba(44, 24, 16, 0.12);
+      --shadow-gold: 0 4px 20px rgba(212, 175, 55, 0.25);
+      --transition: all 0.25s ease-in-out;
+    }
+
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    html {
+      scroll-behavior: smooth;
+    }
+
+    body {
+      background-color: var(--color-bg-ivory);
+      color: var(--color-charcoal);
+      font-family: var(--font-body);
+      line-height: 1.6;
+      -webkit-font-smoothing: antialiased;
+    }
+
+    h1, h2, h3, h4, .font-heading {
+      font-family: var(--font-heading);
+      letter-spacing: 0.02em;
+      color: var(--color-maroon);
+    }
+
+    a {
+      text-decoration: none;
+      color: inherit;
+    }
+
+    button {
+      font-family: inherit;
+      cursor: pointer;
+      border: none;
+      background: none;
+    }
+
+    .container {
+      max-width: 1200px;
+      margin: 0 auto;
+      padding: 0 24px;
+    }
+
+    /* Top Announcement Bar */
+    .top-bar {
+      background-color: var(--color-maroon-dark);
+      color: var(--color-gold-light);
+      font-size: 12px;
+      padding: 8px 0;
+      border-bottom: 1px solid var(--color-border-gold);
+    }
+    .top-bar-content {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      flex-wrap: wrap;
+      gap: 8px;
+    }
+    .top-bar-links {
+      display: flex;
+      align-items: center;
+      gap: 16px;
+    }
+    .top-bar-links a:hover {
+      color: var(--color-gold);
+    }
+
+    /* Sticky Navigation Header */
+    .header {
+      position: sticky;
+      top: 0;
+      z-index: 100;
+      background: rgba(253, 251, 247, 0.96);
+      backdrop-filter: blur(8px);
+      border-bottom: 1px solid var(--color-border);
+      transition: var(--transition);
+      padding: 14px 0;
+    }
+    .header.scrolled {
+      box-shadow: var(--shadow-md);
+      border-bottom-color: var(--color-border-gold);
+      padding: 10px 0;
+    }
+    .nav-container {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+    }
+    .brand-logo {
+      display: flex;
+      align-items: center;
+      gap: 12px;
+    }
+    .brand-badge {
+      width: 44px;
+      height: 44px;
+      border-radius: 50%;
+      background: linear-gradient(135deg, var(--color-gold), var(--color-saffron), var(--color-maroon));
+      padding: 2px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      box-shadow: var(--shadow-sm);
+    }
+    .brand-badge-inner {
+      width: 100%;
+      height: 100%;
+      border-radius: 50%;
+      background: var(--color-maroon-dark);
+      color: var(--color-gold);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-family: var(--font-heading);
+      font-weight: 700;
+      font-size: 16px;
+    }
+    .brand-title {
+      font-family: var(--font-heading);
+      font-size: 22px;
+      font-weight: 800;
+      color: var(--color-maroon);
+      line-height: 1.1;
+    }
+    .brand-subtitle {
+      font-size: 11px;
+      color: var(--color-saffron);
+      text-transform: uppercase;
+      letter-spacing: 1.5px;
+      font-weight: 600;
+    }
+
+    .nav-menu {
+      display: flex;
+      align-items: center;
+      gap: 28px;
+      list-style: none;
+    }
+    .nav-menu a {
+      font-size: 14px;
+      font-weight: 500;
+      color: #373330;
+      position: relative;
+      padding: 6px 0;
+      transition: var(--transition);
+    }
+    .nav-menu a:hover {
+      color: var(--color-saffron);
+    }
+    .nav-menu a::after {
+      content: '';
+      position: absolute;
+      bottom: 0;
+      left: 0;
+      width: 0%;
+      height: 2px;
+      background-color: var(--color-gold);
+      transition: width 0.2s ease;
+    }
+    .nav-menu a:hover::after {
+      width: 100%;
+    }
+
+    .header-actions {
+      display: flex;
+      align-items: center;
+      gap: 12px;
+    }
+
+    .btn {
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      gap: 8px;
+      padding: 10px 20px;
+      border-radius: 6px;
+      font-size: 13px;
+      font-weight: 600;
+      transition: var(--transition);
+      cursor: pointer;
+    }
+    .btn-gold {
+      background: linear-gradient(135deg, var(--color-gold), #b89325);
+      color: var(--color-maroon-dark);
+      box-shadow: var(--shadow-sm);
+    }
+    .btn-gold:hover {
+      background: linear-gradient(135deg, #e4c45b, #c99e28);
+      transform: translateY(-1px);
+      box-shadow: var(--shadow-gold);
+    }
+    .btn-outline {
+      border: 1px solid var(--color-gold);
+      color: var(--color-maroon);
+      background: transparent;
+    }
+    .btn-outline:hover {
+      background: var(--color-gold-light);
+    }
+    .btn-whatsapp {
+      background-color: #25D366;
+      color: #ffffff;
+    }
+    .btn-whatsapp:hover {
+      background-color: #1EBE5D;
+      box-shadow: 0 4px 12px rgba(37, 211, 102, 0.3);
+    }
+    .btn-maroon {
+      background-color: var(--color-maroon);
+      color: var(--color-gold-light);
+    }
+    .btn-maroon:hover {
+      background-color: var(--color-maroon-dark);
+    }
+
+    .hamburger {
+      display: none;
+      font-size: 22px;
+      color: var(--color-maroon);
+    }
+
+    /* Mobile Drawer */
+    .mobile-menu {
+      display: none;
+      background: var(--color-bg-ivory);
+      border-top: 1px solid var(--color-border);
+      padding: 16px 24px 24px;
+    }
+    .mobile-menu.open {
+      display: block;
+    }
+    .mobile-menu ul {
+      list-style: none;
+      display: flex;
+      flex-direction: column;
+      gap: 12px;
+    }
+    .mobile-menu ul a {
+      font-size: 15px;
+      font-weight: 600;
+      padding: 8px 0;
+      display: block;
+      color: var(--color-maroon);
+    }
+    .mobile-menu-actions {
+      margin-top: 18px;
+      padding-top: 16px;
+      border-top: 1px solid var(--color-border);
+      display: flex;
+      flex-direction: column;
+      gap: 10px;
+    }
+
+    /* Hero Section */
+    .hero {
+      position: relative;
+      background-color: var(--color-maroon-dark);
+      color: #FFFFFF;
+      padding: 100px 0 120px;
+      overflow: hidden;
+    }
+    .hero-bg-overlay {
+      position: absolute;
+      inset: 0;
+      background-image: url('https://images.unsplash.com/photo-1582510003544-4d00b7f74220?auto=format&fit=crop&w=1920&q=80');
+      background-size: cover;
+      background-position: center;
+      opacity: 0.22;
+      filter: saturate(1.2);
+    }
+    .hero-gradient {
+      position: absolute;
+      inset: 0;
+      background: linear-gradient(90deg, rgba(39, 12, 12, 0.96) 0%, rgba(59, 20, 20, 0.88) 60%, rgba(39, 12, 12, 0.75) 100%);
+    }
+    .hero-content {
+      position: relative;
+      z-index: 10;
+      max-width: 820px;
+    }
+    .hero-tagline {
+      display: inline-flex;
+      align-items: center;
+      gap: 8px;
+      font-size: 12px;
+      font-weight: 700;
+      text-transform: uppercase;
+      letter-spacing: 2px;
+      color: var(--color-gold);
+      margin-bottom: 16px;
+    }
+    .hero-tagline::before, .hero-tagline::after {
+      content: '';
+      width: 28px;
+      height: 1px;
+      background: var(--color-gold);
+    }
+    .hero-title {
+      font-size: 46px;
+      line-height: 1.2;
+      color: #FFFFFF;
+      font-weight: 800;
+      margin-bottom: 16px;
+    }
+    .hero-artist-badge {
+      display: inline-flex;
+      align-items: center;
+      gap: 8px;
+      font-size: 15px;
+      color: var(--color-gold-light);
+      margin-bottom: 20px;
+    }
+    .hero-artist-badge strong {
+      color: var(--color-gold);
+      font-family: var(--font-heading);
+      letter-spacing: 1px;
+    }
+    .hero-desc {
+      font-size: 17px;
+      color: #E7E0D3;
+      max-width: 680px;
+      margin-bottom: 34px;
+      font-weight: 300;
+      line-height: 1.7;
+    }
+    .hero-cta-group {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 16px;
+    }
+    .hero-stats {
+      margin-top: 60px;
+      padding-top: 30px;
+      border-top: 1px solid rgba(255, 255, 255, 0.15);
+      display: grid;
+      grid-template-columns: repeat(4, 1fr);
+      gap: 24px;
+    }
+    .stat-number {
+      font-family: var(--font-heading);
+      font-size: 32px;
+      font-weight: 800;
+      color: var(--color-gold);
+    }
+    .stat-label {
+      font-size: 12px;
+      text-transform: uppercase;
+      letter-spacing: 1px;
+      color: #D3C9BC;
+      margin-top: 4px;
+    }
+
+    /* Section Headers */
+    .section {
+      padding: 90px 0;
+    }
+    .section-header {
+      text-align: center;
+      max-width: 720px;
+      margin: 0 auto 50px;
+    }
+    .section-kicker {
+      display: inline-flex;
+      align-items: center;
+      gap: 8px;
+      font-size: 12px;
+      font-weight: 700;
+      text-transform: uppercase;
+      letter-spacing: 1.5px;
+      color: var(--color-saffron);
+      margin-bottom: 10px;
+    }
+    .section-title {
+      font-size: 36px;
+      font-weight: 800;
+      color: var(--color-maroon);
+      margin-bottom: 14px;
+    }
+    .section-desc {
+      font-size: 15px;
+      color: #57524E;
+      line-height: 1.7;
+    }
+
+    /* About Section */
+    .about-section {
+      background-color: var(--color-surface-ivory);
+      border-bottom: 1px solid var(--color-border);
+    }
+    .about-grid {
+      display: grid;
+      grid-template-columns: 5fr 7fr;
+      gap: 60px;
+      align-items: center;
+    }
+    .about-image-wrapper {
+      position: relative;
+    }
+    .about-image {
+      width: 100%;
+      height: 480px;
+      object-fit: cover;
+      border-radius: 8px;
+      border: 4px solid var(--color-gold);
+      box-shadow: var(--shadow-lg);
+    }
+    .about-float-badge {
+      position: absolute;
+      bottom: -20px;
+      right: -15px;
+      background: var(--color-maroon);
+      color: var(--color-gold-light);
+      padding: 16px 20px;
+      border-radius: 8px;
+      border: 1px solid var(--color-gold);
+      box-shadow: var(--shadow-lg);
+      max-width: 220px;
+    }
+    .about-float-badge h5 {
+      font-family: var(--font-heading);
+      color: var(--color-gold);
+      font-size: 14px;
+      margin-bottom: 4px;
+    }
+    .about-float-badge p {
+      font-size: 11px;
+      color: #D3C9BC;
+      line-height: 1.4;
+    }
+    .about-content h3 {
+      font-size: 32px;
+      margin-bottom: 20px;
+      line-height: 1.3;
+    }
+    .about-content p {
+      font-size: 15px;
+      color: #44403C;
+      margin-bottom: 18px;
+      line-height: 1.8;
+    }
+    .about-features {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 16px;
+      margin: 28px 0;
+    }
+    .about-feature-box {
+      background: #FFFFFF;
+      padding: 16px;
+      border-radius: 6px;
+      border: 1px solid var(--color-border-gold);
+    }
+    .about-feature-box h4 {
+      font-size: 14px;
+      display: flex;
+      align-items: center;
+      gap: 8px;
+      margin-bottom: 6px;
+    }
+    .about-feature-box p {
+      font-size: 12px;
+      color: #666;
+      margin-bottom: 0;
+      line-height: 1.5;
+    }
+
+    /* Core Services Grid */
+    .services-grid {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      gap: 30px;
+    }
+    .service-card {
+      background: #FFFFFF;
+      border: 1px solid var(--color-border);
+      border-radius: 8px;
+      padding: 32px;
+      transition: var(--transition);
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+    }
+    .service-card:hover {
+      border-color: var(--color-gold);
+      box-shadow: var(--shadow-md);
+      transform: translateY(-3px);
+    }
+    .service-icon-box {
+      width: 52px;
+      height: 52px;
+      border-radius: 8px;
+      background: var(--color-gold-light);
+      color: var(--color-saffron);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 22px;
+      margin-bottom: 20px;
+    }
+    .service-card:hover .service-icon-box {
+      background: var(--color-saffron);
+      color: #FFFFFF;
+    }
+    .service-title {
+      font-size: 20px;
+      font-weight: 700;
+      margin-bottom: 8px;
+    }
+    .service-short {
+      font-size: 13px;
+      color: var(--color-saffron);
+      font-weight: 500;
+      margin-bottom: 14px;
+    }
+    .service-desc {
+      font-size: 14px;
+      color: #57524E;
+      margin-bottom: 20px;
+      line-height: 1.7;
+    }
+    .service-bullets {
+      list-style: none;
+      margin-bottom: 24px;
+      border-top: 1px solid #F0ECE1;
+      padding-top: 16px;
+    }
+    .service-bullets li {
+      font-size: 12px;
+      color: #57524E;
+      display: flex;
+      align-items: flex-start;
+      gap: 8px;
+      margin-bottom: 6px;
+    }
+    .service-bullets li i {
+      color: var(--color-gold);
+      margin-top: 3px;
+    }
+    .service-actions {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      border-top: 1px solid #F0ECE1;
+      padding-top: 16px;
+      font-size: 13px;
+      font-weight: 600;
+    }
+    .service-actions a {
+      color: #25D366;
+    }
+
+    /* Gallery Section */
+    .gallery-section {
+      background-color: var(--color-surface-ivory);
+      border-top: 1px solid var(--color-border);
+      border-bottom: 1px solid var(--color-border);
+    }
+    .gallery-filter-bar {
+      display: flex;
+      justify-content: center;
+      flex-wrap: wrap;
+      gap: 10px;
+      margin-bottom: 40px;
+    }
+    .filter-btn {
+      padding: 8px 18px;
+      border-radius: 6px;
+      font-size: 13px;
+      font-weight: 600;
+      background: #FFFFFF;
+      color: #444;
+      border: 1px solid var(--color-border);
+      transition: var(--transition);
+    }
+    .filter-btn:hover {
+      background: #F0ECE1;
+    }
+    .filter-btn.active {
+      background: var(--color-maroon);
+      color: var(--color-gold-light);
+      border-color: var(--color-maroon);
+      box-shadow: var(--shadow-sm);
+    }
+    .gallery-grid {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 26px;
+    }
+    .gallery-card {
+      background: #FFFFFF;
+      border-radius: 8px;
+      overflow: hidden;
+      border: 1px solid var(--color-border);
+      transition: var(--transition);
+      cursor: pointer;
+      display: flex;
+      flex-direction: column;
+    }
+    .gallery-card:hover {
+      border-color: var(--color-gold);
+      transform: translateY(-4px);
+      box-shadow: var(--shadow-lg);
+    }
+    .gallery-image-box {
+      position: relative;
+      width: 100%;
+      height: 240px;
+      overflow: hidden;
+      background-color: #ECE5D8;
+    }
+    .gallery-image-box img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      transition: transform 0.5s ease;
+    }
+    .gallery-card:hover .gallery-image-box img {
+      transform: scale(1.06);
+    }
+    .gallery-tag-pill {
+      position: absolute;
+      top: 12px;
+      left: 12px;
+      background: rgba(39, 12, 12, 0.85);
+      color: var(--color-gold-light);
+      font-size: 11px;
+      padding: 3px 8px;
+      border-radius: 4px;
+      border: 1px solid var(--color-border-gold);
+    }
+    .gallery-card-body {
+      padding: 20px;
+      display: flex;
+      flex-direction: column;
+      flex: 1;
+      justify-content: space-between;
+    }
+    .gallery-card-title {
+      font-size: 17px;
+      font-weight: 700;
+      color: var(--color-maroon);
+      margin-bottom: 8px;
+      line-height: 1.3;
+    }
+    .gallery-card-desc {
+      font-size: 13px;
+      color: #666;
+      line-height: 1.6;
+      margin-bottom: 14px;
+    }
+    .gallery-card-footer {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      border-top: 1px solid #F0ECE1;
+      padding-top: 12px;
+      font-size: 12px;
+      color: #888;
+    }
+    .gallery-card-footer span.action {
+      color: var(--color-saffron);
+      font-weight: 600;
+    }
+
+    /* Lightbox Modal */
+    .lightbox-modal {
+      display: none;
+      position: fixed;
+      inset: 0;
+      z-index: 1000;
+      background: rgba(0, 0, 0, 0.88);
+      backdrop-filter: blur(6px);
+      align-items: center;
+      justify-content: center;
+      padding: 20px;
+    }
+    .lightbox-modal.active {
+      display: flex;
+    }
+    .lightbox-container {
+      background: var(--color-bg-ivory);
+      max-width: 900px;
+      width: 100%;
+      max-height: 90vh;
+      border-radius: 10px;
+      overflow-y: auto;
+      border: 1px solid var(--color-gold);
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      position: relative;
+      box-shadow: 0 20px 50px rgba(0,0,0,0.5);
+    }
+    .lightbox-close-btn {
+      position: absolute;
+      top: 14px;
+      right: 14px;
+      width: 36px;
+      height: 36px;
+      border-radius: 50%;
+      background: rgba(39, 12, 12, 0.85);
+      color: #FFFFFF;
+      font-size: 16px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      cursor: pointer;
+      z-index: 10;
+      transition: var(--transition);
+    }
+    .lightbox-close-btn:hover {
+      background: var(--color-saffron);
+    }
+    .lightbox-image-side {
+      background: #000000;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      padding: 10px;
+    }
+    .lightbox-image-side img {
+      max-width: 100%;
+      max-height: 70vh;
+      object-fit: contain;
+    }
+    .lightbox-info-side {
+      padding: 34px;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+    }
+    .lightbox-kicker {
+      font-size: 12px;
+      color: var(--color-saffron);
+      text-transform: uppercase;
+      letter-spacing: 1.5px;
+      font-weight: 700;
+      margin-bottom: 6px;
+    }
+    .lightbox-title {
+      font-size: 24px;
+      font-weight: 800;
+      color: var(--color-maroon);
+      margin-bottom: 14px;
+      line-height: 1.3;
+    }
+    .lightbox-desc {
+      font-size: 14px;
+      color: #444;
+      line-height: 1.7;
+      margin-bottom: 20px;
+    }
+    .lightbox-specs {
+      font-size: 12px;
+      border-top: 1px solid var(--color-border);
+      border-bottom: 1px solid var(--color-border);
+      padding: 14px 0;
+      margin-bottom: 24px;
+    }
+    .lightbox-spec-row {
+      display: flex;
+      justify-content: space-between;
+      margin-bottom: 6px;
+    }
+    .lightbox-spec-row:last-child {
+      margin-bottom: 0;
+    }
+    .lightbox-spec-row span.label {
+      color: #777;
+    }
+    .lightbox-spec-row span.val {
+      font-weight: 600;
+      color: #222;
+    }
+
+    /* Why Choose Us Grid */
+    .trust-grid {
+      display: grid;
+      grid-template-columns: repeat(4, 1fr);
+      gap: 24px;
+    }
+    .trust-card {
+      background: #FFFFFF;
+      border: 1px solid var(--color-border);
+      border-radius: 8px;
+      padding: 28px 22px;
+      text-align: left;
+      transition: var(--transition);
+    }
+    .trust-card:hover {
+      border-color: var(--color-gold);
+      transform: translateY(-3px);
+      box-shadow: var(--shadow-md);
+    }
+    .trust-icon-box {
+      width: 48px;
+      height: 48px;
+      border-radius: 8px;
+      background: var(--color-gold-light);
+      color: var(--color-saffron);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 20px;
+      margin-bottom: 18px;
+    }
+    .trust-card h3 {
+      font-size: 17px;
+      font-weight: 700;
+      color: var(--color-maroon);
+      margin-bottom: 8px;
+      line-height: 1.3;
+    }
+    .trust-card p {
+      font-size: 13px;
+      color: #57524E;
+      line-height: 1.6;
+    }
+
+    /* Contact & Inquiry Section */
+    .contact-section {
+      background-color: var(--color-surface-ivory);
+      border-top: 1px solid var(--color-border);
+    }
+    .contact-grid {
+      display: grid;
+      grid-template-columns: 5fr 7fr;
+      gap: 40px;
+    }
+    .contact-card {
+      background: #FFFFFF;
+      border: 1px solid var(--color-border);
+      border-radius: 8px;
+      padding: 30px;
+      box-shadow: var(--shadow-sm);
+      margin-bottom: 20px;
+    }
+    .contact-artist-header {
+      display: flex;
+      align-items: center;
+      gap: 16px;
+      margin-bottom: 20px;
+      padding-bottom: 16px;
+      border-bottom: 1px solid var(--color-border);
+    }
+    .artist-avatar {
+      width: 56px;
+      height: 56px;
+      border-radius: 50%;
+      background: var(--color-gold-light);
+      border: 2px solid var(--color-gold);
+      color: var(--color-saffron);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-family: var(--font-heading);
+      font-weight: 700;
+      font-size: 20px;
+    }
+    .artist-header-info h3 {
+      font-size: 18px;
+      margin-bottom: 2px;
+    }
+    .artist-header-info p {
+      font-size: 12px;
+      color: var(--color-saffron);
+      font-weight: 600;
+    }
+    .contact-detail-list {
+      list-style: none;
+      display: flex;
+      flex-direction: column;
+      gap: 14px;
+      font-size: 13px;
+    }
+    .contact-detail-item {
+      display: flex;
+      align-items: center;
+      gap: 12px;
+    }
+    .contact-icon-box {
+      width: 34px;
+      height: 34px;
+      border-radius: 6px;
+      background: var(--color-surface-ivory);
+      color: var(--color-saffron);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 14px;
+      flex-shrink: 0;
+    }
+    .contact-detail-text small {
+      display: block;
+      font-size: 10px;
+      text-transform: uppercase;
+      color: #888;
+      font-weight: 600;
+    }
+    .contact-detail-text a {
+      color: #222;
+      font-weight: 600;
+      transition: var(--transition);
+    }
+    .contact-detail-text a:hover {
+      color: var(--color-saffron);
+    }
+
+    .whatsapp-box {
+      background: #E8F9EE;
+      border: 1px solid #A2E9BC;
+      border-radius: 8px;
+      padding: 24px;
+    }
+    .whatsapp-box h4 {
+      color: #0E6833;
+      font-size: 16px;
+      display: flex;
+      align-items: center;
+      gap: 8px;
+      margin-bottom: 8px;
+    }
+    .whatsapp-box p {
+      font-size: 12px;
+      color: #205A38;
+      margin-bottom: 16px;
+      line-height: 1.6;
+    }
+
+    /* Inquiry Form */
+    .form-box {
+      background: #FFFFFF;
+      border: 1px solid var(--color-border);
+      border-radius: 8px;
+      padding: 34px;
+      box-shadow: var(--shadow-sm);
+    }
+    .form-header {
+      margin-bottom: 22px;
+      padding-bottom: 14px;
+      border-bottom: 1px solid var(--color-border);
+    }
+    .form-header h3 {
+      font-size: 20px;
+      margin-bottom: 4px;
+    }
+    .form-header p {
+      font-size: 12px;
+      color: #777;
+    }
+    .form-group {
+      margin-bottom: 16px;
+    }
+    .form-row {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 16px;
+    }
+    .form-label {
+      display: block;
+      font-size: 12px;
+      font-weight: 600;
+      color: #333;
+      margin-bottom: 6px;
+    }
+    .form-control {
+      width: 100%;
+      padding: 10px 14px;
+      font-size: 13px;
+      font-family: inherit;
+      border: 1px solid #D5CFC2;
+      border-radius: 5px;
+      background: var(--color-bg-ivory);
+      transition: var(--transition);
+    }
+    .form-control:focus {
+      outline: none;
+      border-color: var(--color-gold);
+      box-shadow: 0 0 0 3px rgba(212, 175, 55, 0.2);
+    }
+    .form-control.error {
+      border-color: #E53E3E;
+      background: #FFF5F5;
+    }
+    .error-msg {
+      font-size: 11px;
+      color: #E53E3E;
+      margin-top: 4px;
+      display: flex;
+      align-items: center;
+      gap: 4px;
+    }
+    textarea.form-control {
+      resize: vertical;
+      min-height: 100px;
+    }
+
+    .form-feedback {
+      display: none;
+      padding: 16px;
+      border-radius: 6px;
+      margin-bottom: 20px;
+      font-size: 13px;
+      line-height: 1.6;
+    }
+    .form-feedback.success {
+      display: block;
+      background: #E6FFFA;
+      border: 1px solid #81E6D9;
+      color: #234E52;
+    }
+
+    /* Footer */
+    .footer {
+      background-color: var(--color-maroon-dark);
+      color: #CFC5B6;
+      font-size: 13px;
+      padding: 70px 0 30px;
+      border-top: 1px solid var(--color-border-gold);
+    }
+    .footer-grid {
+      display: grid;
+      grid-template-columns: 2fr 1fr 1fr;
+      gap: 50px;
+      margin-bottom: 50px;
+    }
+    .footer-col h4 {
+      color: var(--color-gold);
+      font-size: 15px;
+      text-transform: uppercase;
+      letter-spacing: 1px;
+      margin-bottom: 18px;
+    }
+    .footer-col p {
+      font-size: 13px;
+      line-height: 1.7;
+      color: #BBB0A0;
+      max-width: 380px;
+      margin-top: 14px;
+    }
+    .footer-links {
+      list-style: none;
+      display: flex;
+      flex-direction: column;
+      gap: 10px;
+    }
+    .footer-links a {
+      color: #BBB0A0;
+      transition: var(--transition);
+    }
+    .footer-links a:hover {
+      color: var(--color-gold);
+      padding-left: 4px;
+    }
+    .footer-socials {
+      display: flex;
+      gap: 12px;
+      margin-top: 20px;
+    }
+    .footer-social-btn {
+      width: 36px;
+      height: 36px;
+      border-radius: 50%;
+      background: rgba(255, 255, 255, 0.08);
+      color: #FFFFFF;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      transition: var(--transition);
+    }
+    .footer-social-btn:hover {
+      background: var(--color-gold);
+      color: var(--color-maroon-dark);
+    }
+    .footer-bottom {
+      border-top: 1px solid rgba(255, 255, 255, 0.1);
+      padding-top: 24px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      flex-wrap: wrap;
+      gap: 16px;
+      font-size: 12px;
+      color: #9E9382;
+    }
+    .back-to-top {
+      display: inline-flex;
+      align-items: center;
+      gap: 6px;
+      color: var(--color-gold);
+      font-weight: 600;
+      cursor: pointer;
+    }
+    .back-to-top:hover {
+      color: #FFFFFF;
+    }
+
+    /* Floating Mobile Contact Button */
+    .floating-cta {
+      display: none;
+      position: fixed;
+      bottom: 20px;
+      right: 20px;
+      z-index: 99;
+      gap: 10px;
+    }
+    .floating-btn {
+      width: 50px;
+      height: 50px;
+      border-radius: 50%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      color: #FFFFFF;
+      font-size: 20px;
+      box-shadow: 0 4px 16px rgba(0, 0, 0, 0.25);
+    }
+    .floating-whatsapp {
+      background: #25D366;
+    }
+    .floating-phone {
+      background: var(--color-maroon);
+      border: 1px solid var(--color-gold);
+    }
+
+    /* Responsive Breakpoints */
+    @media (max-width: 992px) {
+      .hero-title {
+        font-size: 38px;
+      }
+      .about-grid, .contact-grid {
+        grid-template-columns: 1fr;
+        gap: 40px;
+      }
+      .services-grid {
+        grid-template-columns: 1fr;
+      }
+      .gallery-grid {
+        grid-template-columns: repeat(2, 1fr);
+      }
+      .trust-grid {
+        grid-template-columns: repeat(2, 1fr);
+      }
+      .hero-stats {
+        grid-template-columns: repeat(2, 1fr);
+      }
+      .footer-grid {
+        grid-template-columns: 1fr;
+        gap: 30px;
+      }
+      .lightbox-container {
+        grid-template-columns: 1fr;
+      }
+      .lightbox-image-side {
+        max-height: 40vh;
+      }
+    }
+
+    @media (max-width: 768px) {
+      .nav-menu, .header-actions {
+        display: none;
+      }
+      .hamburger {
+        display: block;
+      }
+      .hero {
+        padding: 60px 0 80px;
+      }
+      .hero-title {
+        font-size: 28px;
+      }
+      .hero-desc {
+        font-size: 15px;
+      }
+      .section {
+        padding: 60px 0;
+      }
+      .section-title {
+        font-size: 28px;
+      }
+      .gallery-grid {
+        grid-template-columns: 1fr;
+      }
+      .trust-grid {
+        grid-template-columns: 1fr;
+      }
+      .form-row {
+        grid-template-columns: 1fr;
+      }
+      .floating-cta {
+        display: flex;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Top Announcement Bar -->
+  <div class="top-bar">
+    <div class="container top-bar-content">
+      <div>
+        <span style="color: var(--color-gold); font-weight: bold; margin-right: 4px;">ॐ</span>
+        <span>Dedicated to Traditional Temple Artwork & Shilpa Shastra Agamas</span>
+        <span style="margin: 0 6px; opacity: 0.5;">·</span>
+        <span>Master Artist THORLAKONDA GURAVAIAH</span>
+      </div>
+      <div class="top-bar-links">
+        <a href="tel:+919704926504"><i class="fa-solid fa-phone" style="color: var(--color-gold); margin-right: 4px;"></i>+91 9704926504</a>
+        <a href="https://wa.me/919704926504" target="_blank"><i class="fa-brands fa-whatsapp" style="color: #25D366; margin-right: 4px;"></i>WhatsApp Available</a>
+      </div>
+    </div>
+  </div>
+
+  <!-- Sticky Header Navigation -->
+  <header class="header" id="navbar">
+    <div class="container nav-container">
+      <a href="#home" class="brand-logo">
+        <div class="brand-badge">
+          <div class="brand-badge-inner">SG</div>
+        </div>
+        <div>
+          <div class="brand-title">Sree Guru Arts</div>
+          <div class="brand-subtitle">Thorlakonda Guravaiah</div>
+        </div>
+      </a>
+
+      <!-- Desktop Navigation Links -->
+      <nav>
+        <ul class="nav-menu">
+          <li><a href="#home">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#services">Services</a></li>
+          <li><a href="#gallery">Temple Gallery</a></li>
+          <li><a href="#why-us">Why Us</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+
+      <!-- Action Buttons -->
+      <div class="header-actions">
+        <a href="tel:+919704926504" class="btn btn-outline">
+          <i class="fa-solid fa-phone"></i> Call Now
+        </a>
+        <a href="https://wa.me/919704926504" target="_blank" class="btn btn-whatsapp">
+          <i class="fa-brands fa-whatsapp"></i> WhatsApp
+        </a>
+      </div>
+
+      <!-- Hamburger for Mobile -->
+      <button class="hamburger" id="hamburger-btn" aria-label="Toggle navigation menu">
+        <i class="fa-solid fa-bars"></i>
+      </button>
+    </div>
+
+    <!-- Mobile Dropdown Menu -->
+    <div class="mobile-menu" id="mobile-menu">
+      <ul>
+        <li><a href="#home" class="mobile-nav-link">Home</a></li>
+        <li><a href="#about" class="mobile-nav-link">About the Artist</a></li>
+        <li><a href="#services" class="mobile-nav-link">Core Services</a></li>
+        <li><a href="#gallery" class="mobile-nav-link">Temple Gallery</a></li>
+        <li><a href="#why-us" class="mobile-nav-link">Why Choose Us</a></li>
+        <li><a href="#contact" class="mobile-nav-link">Contact & Commissions</a></li>
+      </ul>
+      <div class="mobile-menu-actions">
+        <a href="tel:+919704926504" class="btn btn-outline" style="width: 100%;">
+          <i class="fa-solid fa-phone"></i> Call +91 9704926504
+        </a>
+        <a href="https://wa.me/919704926504" target="_blank" class="btn btn-whatsapp" style="width: 100%;">
+          <i class="fa-brands fa-whatsapp"></i> Message on WhatsApp
+        </a>
+      </div>
+    </div>
+  </header>
+
+  <!-- Hero Section -->
+  <section class="hero" id="home">
+    <div class="hero-bg-overlay"></div>
+    <div class="hero-gradient"></div>
+    <div class="container">
+      <div class="hero-content">
+        <div class="hero-tagline">Devotional Temple Craftsmanship</div>
+        <h1 class="hero-title">Preserving Sacred Traditions Through Divine Art & Temple Architecture</h1>
+        <div class="hero-artist-badge">
+          <span>Master Temple Sculptor:</span>
+          <strong>THORLAKONDA GURAVAIAH</strong>
+        </div>
+        <p class="hero-desc">
+          Specializing in authentic temple architecture design, sacred stone and cement sculptures, monumental Vimana and Gopuram ornamentation, 24K gold foil wall murals, and bespoke devotional artworks created according to traditional Shilpa Shastras.
+        </p>
+        <div class="hero-cta-group">
+          <a href="#gallery" class="btn btn-gold">
+            <i class="fa-solid fa-place-of-worship"></i> Explore Temple Works
+          </a>
+          <a href="#contact" class="btn btn-outline" style="color: #FFFFFF; border-color: var(--color-gold);">
+            <i class="fa-solid fa-envelope-open-text"></i> Contact for Commissions
+          </a>
+        </div>
+
+        <div class="hero-stats">
+          <div>
+            <div class="stat-number">25+</div>
+            <div class="stat-label">Years Experience</div>
+          </div>
+          <div>
+            <div class="stat-number">150+</div>
+            <div class="stat-label">Temples Sanctified</div>
+          </div>
+          <div>
+            <div class="stat-number">100%</div>
+            <div class="stat-label">Agama Compliant</div>
+          </div>
+          <div>
+            <div class="stat-number">24K</div>
+            <div class="stat-label">Gold Leaf Murals</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- About the Artist Section -->
+  <section class="section about-section" id="about">
+    <div class="container">
+      <div class="about-grid">
+        <div class="about-image-wrapper">
+          <img src="https://images.unsplash.com/photo-1544717305-2782549b5136?auto=format&fit=crop&w=1000&q=85" alt="Master Artist Thorlakonda Guravaiah - Sree Guru Arts" class="about-image" />
+          <div class="about-float-badge">
+            <h5><i class="fa-solid fa-om" style="color: var(--color-gold); margin-right: 4px;"></i> Vastu Aligned</h5>
+            <p>Every idol & temple structure harmonized according to Tala-mana Agamic canons.</p>
+          </div>
+        </div>
+
+        <div class="about-content">
+          <div class="section-kicker">
+            <i class="fa-solid fa-scroll"></i> Master Sculptor & Sthapati
+          </div>
+          <h3>Crafting Sacred Spaces with Uncompromising Devotion</h3>
+          <p>
+            Carrying forward the sacred heritage of traditional Indian iconography, <strong>THORLAKONDA GURAVAIAH</strong> is a venerated master artist dedicated to the preservation and creation of authentic temple architecture and divine sculptures.
+          </p>
+          <p>
+            At <strong>Sree Guru Arts</strong>, temple design is approached as a sacred sadhana. Whether hand-carving deities from Krishna Shila (black stone), executing high-relief stuccowork for Rajagopurams, or illuminating sanctum walls with real 24-karat gold leaf, every stroke strictly observes traditional Agamas and Vastu Shastra iconometry.
+          </p>
+
+          <div class="about-features">
+            <div class="about-feature-box">
+              <h4><i class="fa-solid fa-ruler-combined" style="color: var(--color-saffron);"></i> Shilpa Shastra Canons</h4>
+              <p>Precise proportions for deity mudras, facial grace (Bhava), and sacred stances.</p>
+            </div>
+            <div class="about-feature-box">
+              <h4><i class="fa-solid fa-gem" style="color: var(--color-saffron);"></i> Consecrated Materials</h4>
+              <p>Authentic granites, architectural stucco, pure 24K gold foil, and weather-defying mineral colors.</p>
+            </div>
+          </div>
+
+          <div style="display: flex; gap: 14px; flex-wrap: wrap;">
+            <a href="#contact" class="btn btn-maroon">
+              <i class="fa-solid fa-file-signature"></i> Commission Artist
+            </a>
+            <a href="https://wa.me/919704926504" target="_blank" class="btn btn-whatsapp">
+              <i class="fa-brands fa-whatsapp"></i> Chat on WhatsApp
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Core Services Section -->
+  <section class="section" id="services">
+    <div class="container">
+      <div class="section-header">
+        <div class="section-kicker">Sacred Artistry & Architectural Services</div>
+        <h2 class="section-title">Specialized Temple Services</h2>
+        <p class="section-desc">
+          Holistic artistic solutions encompassing presiding idol sculpting, Gopuram architecture, ornate gold leaf murals, and bespoke fine art commissions.
+        </p>
+      </div>
+
+      <div class="services-grid">
+        <!-- Service 1 -->
+        <div class="service-card">
+          <div>
+            <div class="service-icon-box">
+              <i class="fa-solid fa-gem"></i>
+            </div>
+            <h3 class="service-title">Temple Sculptures & Idols</h3>
+            <div class="service-short">Stone, Cement, Plaster & Traditional Reliefs</div>
+            <p class="service-desc">
+              Custom sculpting of Moola Virat presiding deities, Utsava murtis, and guardian Dwarapalakas. Crafted in accordance with Shilpa Shastra Tala-mana measurements.
+            </p>
+            <ul class="service-bullets">
+              <li><i class="fa-solid fa-check"></i> Strict Agama Shastra and iconometric facial proportions</li>
+              <li><i class="fa-solid fa-check"></i> Authentic Krishna Shila (black stone) & reinforced cement cast</li>
+              <li><i class="fa-solid fa-check"></i> Idols from 2 feet to monumental 25+ feet sanctum statues</li>
+            </ul>
+          </div>
+          <div class="service-actions">
+            <a href="#contact" style="color: var(--color-maroon);">Request Quotation &rarr;</a>
+            <a href="https://wa.me/919704926504?text=Inquiry%20regarding%20Temple%20Sculptures%20%26%20Idols" target="_blank"><i class="fa-brands fa-whatsapp"></i> Inquire on WhatsApp</a>
+          </div>
+        </div>
+
+        <!-- Service 2 -->
+        <div class="service-card">
+          <div>
+            <div class="service-icon-box">
+              <i class="fa-solid fa-place-of-worship"></i>
+            </div>
+            <h3 class="service-title">Temple Interior & Vimana/Gopuram</h3>
+            <div class="service-short">Architectural Dravidian & Nagara Artistry</div>
+            <p class="service-desc">
+              Grand multi-tiered Raja Gopurams, Vimana superstructures, ornamental pillars, Yali brackets, and sanctum dome kalasam ornamentation built to endure generations.
+            </p>
+            <ul class="service-bullets">
+              <li><i class="fa-solid fa-check"></i> Multi-tiered Gopuram devata modeling & relief panels</li>
+              <li><i class="fa-solid fa-check"></i> Auspicious Vastu alignment for sanctum cosmic energy</li>
+              <li><i class="fa-solid fa-check"></i> High-tensile weather-resistant architectural stucco</li>
+            </ul>
+          </div>
+          <div class="service-actions">
+            <a href="#contact" style="color: var(--color-maroon);">Request Quotation &rarr;</a>
+            <a href="https://wa.me/919704926504?text=Inquiry%20regarding%20Vimana%20and%20Gopuram%20Artwork" target="_blank"><i class="fa-brands fa-whatsapp"></i> Inquire on WhatsApp</a>
+          </div>
+        </div>
+
+        <!-- Service 3 -->
+        <div class="service-card">
+          <div>
+            <div class="service-icon-box">
+              <i class="fa-solid fa-paintbrush"></i>
+            </div>
+            <h3 class="service-title">Custom Deities & Sacred Wall Murals</h3>
+            <div class="service-short">24K Gold Leaf & Traditional Color Work</div>
+            <p class="service-desc">
+              Large-scale fresco-secco temple murals capturing sacred Puranic episodes, Dasavatara series, Ashta Lakshmi panels, and sanctum reliefs enriched with genuine 24-karat gold foil.
+            </p>
+            <ul class="service-bullets">
+              <li><i class="fa-solid fa-check"></i> Pure 24K gold foil embossing & delicate gilding</li>
+              <li><i class="fa-solid fa-check"></i> Rich mineral pigments resistant to fading and humidity</li>
+              <li><i class="fa-solid fa-check"></i> Narrative epics (Ramayana, Bhagavata, Shiva Purana)</li>
+            </ul>
+          </div>
+          <div class="service-actions">
+            <a href="#contact" style="color: var(--color-maroon);">Request Quotation &rarr;</a>
+            <a href="https://wa.me/919704926504?text=Inquiry%20regarding%2024K%20Gold%20Leaf%20Wall%20Murals" target="_blank"><i class="fa-brands fa-whatsapp"></i> Inquire on WhatsApp</a>
+          </div>
+        </div>
+
+        <!-- Service 4 -->
+        <div class="service-card">
+          <div>
+            <div class="service-icon-box">
+              <i class="fa-solid fa-palette"></i>
+            </div>
+            <h3 class="service-title">General Custom Fine Art Commissions</h3>
+            <div class="service-short">Canvas Paintings, Relief Art & Bespoke Decor</div>
+            <p class="service-desc">
+              Bespoke devotional paintings and 3D reliefs tailored for private prayer rooms, heritage homes, and cultural institutions. Crafted to custom room dimensions and aesthetic themes.
+            </p>
+            <ul class="service-bullets">
+              <li><i class="fa-solid fa-check"></i> Museum-grade archival Belgian canvas & teakwood framing</li>
+              <li><i class="fa-solid fa-check"></i> Custom Tanjore style relief panels for luxury residences</li>
+              <li><i class="fa-solid fa-check"></i> White-glove delivery & installation guidance</li>
+            </ul>
+          </div>
+          <div class="service-actions">
+            <a href="#contact" style="color: var(--color-maroon);">Request Quotation &rarr;</a>
+            <a href="https://wa.me/919704926504?text=Inquiry%20regarding%20Custom%20Fine%20Art%20Commissions" target="_blank"><i class="fa-brands fa-whatsapp"></i> Inquire on WhatsApp</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Visual Gallery / Portfolio Section -->
+  <section class="section gallery-section" id="gallery">
+    <div class="container">
+      <div class="section-header">
+        <div class="section-kicker">Divine Art Gallery & Studio · Thorlakonda Guravaiah</div>
+        <h2 class="section-title">Sacred Art Gallery & Creations</h2>
+        <p class="section-desc">
+          Explore consecrated temple sculptures, Dravidian Vimana architecture, and 24K gold foil frescoes, or browse custom devotional fine art created by THORLAKONDA GURAVAIAH.
+        </p>
+      </div>
+
+      <!-- Filter Buttons -->
+      <div class="gallery-filter-bar">
+        <button class="filter-btn active" data-filter="all">All Works</button>
+        <button class="filter-btn" data-filter="temple-art">Temple Art</button>
+        <button class="filter-btn" data-filter="murals">Murals</button>
+        <button class="filter-btn" data-filter="sculptures">Sculptures</button>
+        <button class="filter-btn" data-filter="general">General Artwork</button>
+      </div>
+
+      <!-- Portfolio Grid -->
+      <div class="gallery-grid" id="gallery-grid">
+        <!-- Item 1 -->
+        <div class="gallery-card" data-category="sculptures" data-title="Maha Ganapati Sanctum Sculpture" data-medium="Hand-carved Krishna Shila Stone" data-dimensions="4.5 ft Height" data-desc="Traditional Krishna Shila (black stone) Ganesha idol crafted with strict adherence to Shilpa Shastra Agamas and Vastu dimensions." data-image="https://images.unsplash.com/photo-1621847468516-1ed5d0df56fe?auto=format&fit=crop&w=1200&q=80">
+          <div class="gallery-image-box">
+            <img src="https://images.unsplash.com/photo-1621847468516-1ed5d0df56fe?auto=format&fit=crop&w=600&q=80" alt="Maha Ganapati Sanctum Sculpture" loading="lazy" />
+            <span class="gallery-tag-pill">Sculptures</span>
+          </div>
+          <div class="gallery-card-body">
+            <h3 class="gallery-card-title">Maha Ganapati Sanctum Sculpture</h3>
+            <p class="gallery-card-desc">Traditional Krishna Shila (black stone) Ganesha idol sculpted according to ancient Tala-mana shastra.</p>
+            <div class="gallery-card-footer">
+              <span>Krishna Shila Stone</span>
+              <span class="action">View Details &rarr;</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Item 2 -->
+        <div class="gallery-card" data-category="temple-art" data-title="Dravidian Raja Gopuram Architectural Stucco" data-medium="High-Strength Architectural Stucco" data-dimensions="5-Tier Gopuram (45 ft)" data-desc="Tiered Gopuram architectural modeling showcasing celestial devatas, gandharvas, and sacred vimana motifs with weather-enduring formulations." data-image="https://images.unsplash.com/photo-1582510003544-4d00b7f74220?auto=format&fit=crop&w=1200&q=80">
+          <div class="gallery-image-box">
+            <img src="https://images.unsplash.com/photo-1582510003544-4d00b7f74220?auto=format&fit=crop&w=600&q=80" alt="Dravidian Raja Gopuram" loading="lazy" />
+            <span class="gallery-tag-pill">Temple Art</span>
+          </div>
+          <div class="gallery-card-body">
+            <h3 class="gallery-card-title">Dravidian Raja Gopuram Stucco</h3>
+            <p class="gallery-card-desc">Tiered Gopuram modeling with celestial devatas and intricate vimana architectural ornamentation.</p>
+            <div class="gallery-card-footer">
+              <span>Architectural Stucco</span>
+              <span class="action">View Details &rarr;</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Item 3 -->
+        <div class="gallery-card" data-category="murals" data-title="Vaikuntha Darbar 24K Gold Leaf Wall Mural" data-medium="24K Gold Leaf & Mineral Fresco" data-dimensions="16 ft x 9 ft" data-desc="Exquisite sanctum wall relief mural depicting Sri Maha Vishnu resting upon Adisesha, embellished with pure 24K gold foil and natural stone colors." data-image="https://images.unsplash.com/photo-1518709268805-4e9042af9f23?auto=format&fit=crop&w=1200&q=80">
+          <div class="gallery-image-box">
+            <img src="https://images.unsplash.com/photo-1518709268805-4e9042af9f23?auto=format&fit=crop&w=600&q=80" alt="Vaikuntha Darbar Mural" loading="lazy" />
+            <span class="gallery-tag-pill">Murals</span>
+          </div>
+          <div class="gallery-card-body">
+            <h3 class="gallery-card-title">Vaikuntha Darbar 24K Gold Mural</h3>
+            <p class="gallery-card-desc">Sanctum wall relief mural depicting Maha Vishnu with pure embossed 24K gold foil work.</p>
+            <div class="gallery-card-footer">
+              <span>24K Gold Foil</span>
+              <span class="action">View Details &rarr;</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Item 4 -->
+        <div class="gallery-card" data-category="sculptures" data-title="Cosmic Ananda Tandava Nataraja Relief" data-medium="Reinforced Cement-Concrete (RCC) Art Cast" data-dimensions="6 ft Circular Relief" data-desc="Deep high-relief sculpture capturing the divine rhythmic grace of Lord Shiva with the aureole of fire and Apasmara demon motif." data-image="https://images.unsplash.com/photo-1609766857041-ed402ea8069a?auto=format&fit=crop&w=1200&q=80">
+          <div class="gallery-image-box">
+            <img src="https://images.unsplash.com/photo-1609766857041-ed402ea8069a?auto=format&fit=crop&w=600&q=80" alt="Cosmic Ananda Tandava Nataraja" loading="lazy" />
+            <span class="gallery-tag-pill">Sculptures</span>
+          </div>
+          <div class="gallery-card-body">
+            <h3 class="gallery-card-title">Ananda Tandava Nataraja Relief</h3>
+            <p class="gallery-card-desc">High-relief sculpture capturing the cosmic rhythmic dance of Lord Shiva with Prabha Mandala.</p>
+            <div class="gallery-card-footer">
+              <span>RCC Relief Cast</span>
+              <span class="action">View Details &rarr;</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Item 5 -->
+        <div class="gallery-card" data-category="temple-art" data-title="Vimana Kalasam & Sanctum Dome Ornamentation" data-medium="Stone Carving & Consecrated Copper Kalasam" data-dimensions="28 ft Vimana Tower" data-desc="Vedic sanctum dome design with lotus pediment base, octagonal shikara geometry, and consecrated copper kalasam base detailing." data-image="https://images.unsplash.com/photo-1548013146-72479768bada?auto=format&fit=crop&w=1200&q=80">
+          <div class="gallery-image-box">
+            <img src="https://images.unsplash.com/photo-1548013146-72479768bada?auto=format&fit=crop&w=600&q=80" alt="Vimana Kalasam Ornamentation" loading="lazy" />
+            <span class="gallery-tag-pill">Temple Art</span>
+          </div>
+          <div class="gallery-card-body">
+            <h3 class="gallery-card-title">Vimana Kalasam & Sanctum Dome</h3>
+            <p class="gallery-card-desc">Vedic dome design with lotus pediment base and consecrated kalasam architecture.</p>
+            <div class="gallery-card-footer">
+              <span>Stone & Copper</span>
+              <span class="action">View Details &rarr;</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Item 6 -->
+        <div class="gallery-card" data-category="murals" data-title="Ashta Lakshmi Divine Corridor Panels" data-medium="Carved Plaster Relief with Antique Gold Patina" data-dimensions="8 Panels (3ft x 5ft each)" data-desc="Eight-panel sacred temple corridor installation illustrating the eight divine manifestations of Goddess Lakshmi according to Purana texts." data-image="https://images.unsplash.com/photo-1608481337062-4093bf3ed404?auto=format&fit=crop&w=1200&q=80">
+          <div class="gallery-image-box">
+            <img src="https://images.unsplash.com/photo-1608481337062-4093bf3ed404?auto=format&fit=crop&w=600&q=80" alt="Ashta Lakshmi Panels" loading="lazy" />
+            <span class="gallery-tag-pill">Murals</span>
+          </div>
+          <div class="gallery-card-body">
+            <h3 class="gallery-card-title">Ashta Lakshmi Divine Panels</h3>
+            <p class="gallery-card-desc">Eight-panel sacred corridor installation depicting the auspicious forms of Goddess Lakshmi.</p>
+            <div class="gallery-card-footer">
+              <span>Plaster & Gold Patina</span>
+              <span class="action">View Details &rarr;</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Item 7 -->
+        <div class="gallery-card" data-category="general" data-title="Sri Venkateswara Swamy Canvas Masterwork" data-medium="Oil & Real Gold Leaf on Fine Belgian Linen" data-dimensions="5 ft x 4 ft Framed" data-desc="Masterwork canvas commission showcasing Lord Balaji adorned with diamond crowns, Shankha, Chakra, and fragrant flower garlands." data-image="https://images.unsplash.com/photo-1579783900882-c0d3dad7b119?auto=format&fit=crop&w=1200&q=80">
+          <div class="gallery-image-box">
+            <img src="https://images.unsplash.com/photo-1579783900882-c0d3dad7b119?auto=format&fit=crop&w=600&q=80" alt="Sri Venkateswara Swamy Canvas Painting" loading="lazy" />
+            <span class="gallery-tag-pill">General Artwork</span>
+          </div>
+          <div class="gallery-card-body">
+            <h3 class="gallery-card-title">Sri Venkateswara Swamy Canvas</h3>
+            <p class="gallery-card-desc">Bespoke fine art painting of Lord Balaji with pure gold foil detailing and teak framing.</p>
+            <div class="gallery-card-footer">
+              <span>Belgian Canvas & Gold</span>
+              <span class="action">View Details &rarr;</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Item 8 -->
+        <div class="gallery-card" data-category="temple-art" data-title="Yali & Dwarapalaka Guardian Pillars" data-medium="Monolithic Granitic Stone" data-dimensions="9 ft Pair of Pillars" data-desc="Monolithic style stone pillars carved with mythical Yali beasts and fierce temple guardian Dwarapalakas poised for protective energy." data-image="https://images.unsplash.com/photo-1598890777032-bde835ba27c2?auto=format&fit=crop&w=1200&q=80">
+          <div class="gallery-image-box">
+            <img src="https://images.unsplash.com/photo-1598890777032-bde835ba27c2?auto=format&fit=crop&w=600&q=80" alt="Yali Temple Pillars" loading="lazy" />
+            <span class="gallery-tag-pill">Temple Art</span>
+          </div>
+          <div class="gallery-card-body">
+            <h3 class="gallery-card-title">Yali & Dwarapalaka Pillars</h3>
+            <p class="gallery-card-desc">Monolithic stone pillars sculpted with mythical temple guardians and protective motifs.</p>
+            <div class="gallery-card-footer">
+              <span>Granite Chiseling</span>
+              <span class="action">View Details &rarr;</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Item 9 -->
+        <div class="gallery-card" data-category="general" data-title="Radha Krishna Vrindavan Garden Relief" data-medium="Fiber-Reinforced Marble Dust" data-dimensions="6 ft x 4 ft" data-desc="Delicate high-relief artwork depicting the divine flute melody of Sri Krishna with peacocks and blooming kadamba blossoms in Vastu-harmonized colors." data-image="https://images.unsplash.com/photo-1564507592333-c60657eea523?auto=format&fit=crop&w=1200&q=80">
+          <div class="gallery-image-box">
+            <img src="https://images.unsplash.com/photo-1564507592333-c60657eea523?auto=format&fit=crop&w=600&q=80" alt="Radha Krishna Relief" loading="lazy" />
+            <span class="gallery-tag-pill">General Artwork</span>
+          </div>
+          <div class="gallery-card-body">
+            <h3 class="gallery-card-title">Radha Krishna Garden Relief</h3>
+            <p class="gallery-card-desc">Elegant high-relief artwork for private prayer halls and auspicious home mandirs.</p>
+            <div class="gallery-card-footer">
+              <span>Marble Dust & Gold</span>
+              <span class="action">View Details &rarr;</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Lightbox Modal -->
+  <div class="lightbox-modal" id="lightbox-modal">
+    <div class="lightbox-container">
+      <button class="lightbox-close-btn" id="lightbox-close" aria-label="Close modal">
+        <i class="fa-solid fa-xmark"></i>
+      </button>
+      <div class="lightbox-image-side">
+        <img id="modal-img" src="" alt="Enlarged Artwork" />
+      </div>
+      <div class="lightbox-info-side">
+        <div>
+          <div class="lightbox-kicker" id="modal-category">Category</div>
+          <h3 class="lightbox-title" id="modal-title">Artwork Title</h3>
+          <p class="lightbox-desc" id="modal-desc">Description of artwork.</p>
+
+          <div class="lightbox-specs">
+            <div class="lightbox-spec-row">
+              <span class="label">Medium:</span>
+              <span class="val" id="modal-medium">Krishna Shila Stone</span>
+            </div>
+            <div class="lightbox-spec-row">
+              <span class="label">Dimensions:</span>
+              <span class="val" id="modal-dimensions">Custom</span>
+            </div>
+            <div class="lightbox-spec-row">
+              <span class="label">Artist:</span>
+              <span class="val">THORLAKONDA GURAVAIAH</span>
+            </div>
+          </div>
+        </div>
+
+        <div>
+          <a id="modal-whatsapp-link" href="#" target="_blank" class="btn btn-whatsapp" style="width: 100%; margin-bottom: 8px;">
+            <i class="fa-brands fa-whatsapp"></i> Inquire About This Piece via WhatsApp
+          </a>
+          <a href="#contact" class="btn btn-outline" id="modal-contact-link" style="width: 100%;">
+            <i class="fa-solid fa-envelope"></i> Fill Commission Form
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Why Choose Us Section -->
+  <section class="section" id="why-us">
+    <div class="container">
+      <div class="section-header">
+        <div class="section-kicker">Trust & Authenticity</div>
+        <h2 class="section-title">Why Choose Sree Guru Arts</h2>
+        <p class="section-desc">
+          Temple trusts, devasthanams, and individual patrons place their faith in our rigorous shastric discipline, artistic mastery, and sacred materials.
+        </p>
+      </div>
+
+      <div class="trust-grid">
+        <div class="trust-card">
+          <div class="trust-icon-box">
+            <i class="fa-solid fa-scroll"></i>
+          </div>
+          <h3>Authentic Traditional Technique</h3>
+          <p>
+            Strict adherence to ancient Shilpa Shastras, Agamas, and timeless iconometry passed down through generations of consecrated temple artisans.
+          </p>
+        </div>
+
+        <div class="trust-card">
+          <div class="trust-icon-box">
+            <i class="fa-solid fa-compass"></i>
+          </div>
+          <h3>Sacred Specifications & Vastu</h3>
+          <p>
+            Meticulous attention to Tala-mana proportions, mudras, sanctum orientation, and Vastu Vidya ensuring spiritual resonance and peaceful consecration.
+          </p>
+        </div>
+
+        <div class="trust-card">
+          <div class="trust-icon-box">
+            <i class="fa-solid fa-shield-halved"></i>
+          </div>
+          <h3>High-Grade Durable Materials</h3>
+          <p>
+            Only premium certified Krishna Shila, high-tensile cement stucco, weather-resilient mineral pigments, and genuine 24K gold foil engineered for longevity.
+          </p>
+        </div>
+
+        <div class="trust-card">
+          <div class="trust-icon-box">
+            <i class="fa-solid fa-hand-holding-heart"></i>
+          </div>
+          <h3>Customized Bespoke Service</h3>
+          <p>
+            Direct consultation with master artist THORLAKONDA GURAVAIAH from initial concept drawings through on-site Prana Pratishtha consecration.
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact & Inquiry Section -->
+  <section class="section contact-section" id="contact">
+    <div class="container">
+      <div class="section-header">
+        <div class="section-kicker">Direct Contact & Consultation</div>
+        <h2 class="section-title">Commission an Artwork or Temple Project</h2>
+        <p class="section-desc">
+          Reach out directly to master artist THORLAKONDA GURAVAIAH for temple project consultations, idol sculpting quotations, and bespoke gold leaf mural inquiries.
+        </p>
+      </div>
+
+      <div class="contact-grid">
+        <!-- Direct Contact Cards Column -->
+        <div>
+          <div class="contact-card">
+            <div class="contact-artist-header">
+              <div class="artist-avatar">TG</div>
+              <div class="artist-header-info">
+                <h3>THORLAKONDA GURAVAIAH</h3>
+                <p>Master Temple Artist & Sculptor</p>
+                <small style="color: #666;">Sree Guru Arts</small>
+              </div>
+            </div>
+
+            <ul class="contact-detail-list">
+              <li class="contact-detail-item">
+                <div class="contact-icon-box"><i class="fa-solid fa-phone"></i></div>
+                <div class="contact-detail-text">
+                  <small>Direct Phone / Mobile</small>
+                  <a href="tel:+919704926504">+91 9704926504</a>
+                </div>
+              </li>
+              <li class="contact-detail-item">
+                <div class="contact-icon-box"><i class="fa-solid fa-envelope"></i></div>
+                <div class="contact-detail-text">
+                  <small>Email Address</small>
+                  <a href="mailto:sreeguruarts@gmail.com">sreeguruarts@gmail.com</a>
+                </div>
+              </li>
+              <li class="contact-detail-item">
+                <div class="contact-icon-box"><i class="fa-brands fa-whatsapp"></i></div>
+                <div class="contact-detail-text">
+                  <small>Direct WhatsApp</small>
+                  <a href="https://wa.me/919704926504" target="_blank">+91 9704926504</a>
+                </div>
+              </li>
+              <li class="contact-detail-item">
+                <div class="contact-icon-box"><i class="fa-solid fa-location-dot"></i></div>
+                <div class="contact-detail-text">
+                  <small>Service Region</small>
+                  <span>Andhra Pradesh, Telangana & Pan-India Commissions</span>
+                </div>
+              </li>
+            </ul>
+          </div>
+
+          <div class="whatsapp-box">
+            <h4><i class="fa-brands fa-whatsapp"></i> Instant WhatsApp Consultation</h4>
+            <p>
+              Send your temple architectural blueprints, sanctum measurements, or deity reference photos directly on WhatsApp for immediate review by Guravaiah garu.
+            </p>
+            <a href="https://wa.me/919704926504" target="_blank" class="btn btn-whatsapp" style="width: 100%;">
+              <i class="fa-brands fa-whatsapp"></i> Message on WhatsApp (+91 9704926504)
+            </a>
+          </div>
+        </div>
+
+        <!-- Functional Inquiry Form Column -->
+        <div class="form-box">
+          <div class="form-header">
+            <h3>Commission Inquiry Form</h3>
+            <p>Please enter your requirements below. Master artist Guravaiah will review and contact you promptly.</p>
+          </div>
+
+          <!-- Success Alert -->
+          <div class="form-feedback success" id="form-success-banner">
+            <strong><i class="fa-solid fa-circle-check"></i> Namaste! Your inquiry has been received.</strong><br />
+            Thank you for reaching out to Sree Guru Arts. Thorlakonda Guravaiah will contact you shortly to discuss your project.
+            <div style="margin-top: 10px;">
+              <a href="https://wa.me/919704926504" target="_blank" class="btn btn-whatsapp" style="font-size: 11px; padding: 6px 12px;" id="forward-whatsapp-btn">
+                <i class="fa-brands fa-whatsapp"></i> Forward details to WhatsApp
+              </a>
+            </div>
+          </div>
+
+          <form id="inquiry-form" novalidate>
+            <div class="form-group">
+              <label class="form-label" for="client-name">Your Name / Temple Trust Name *</label>
+              <input type="text" id="client-name" name="name" class="form-control" placeholder="e.g. Srikanth Reddy / Sri Lakshmi Devasthanam" />
+              <div class="error-msg" id="err-name" style="display: none;"><i class="fa-solid fa-triangle-exclamation"></i> Please enter your name (at least 2 characters).</div>
+            </div>
+
+            <div class="form-row">
+              <div class="form-group">
+                <label class="form-label" for="client-phone">Phone / Mobile Number *</label>
+                <input type="tel" id="client-phone" name="phone" class="form-control" placeholder="e.g. +91 9704926504" />
+                <div class="error-msg" id="err-phone" style="display: none;"><i class="fa-solid fa-triangle-exclamation"></i> Please enter a valid 10-digit phone number.</div>
+              </div>
+
+              <div class="form-group">
+                <label class="form-label" for="client-email">Email Address</label>
+                <input type="email" id="client-email" name="email" class="form-control" placeholder="e.g. devasthanam@gmail.com" />
+                <div class="error-msg" id="err-email" style="display: none;"><i class="fa-solid fa-triangle-exclamation"></i> Please enter a valid email address.</div>
+              </div>
+            </div>
+
+            <div class="form-group">
+              <label class="form-label" for="client-service">Service Required *</label>
+              <select id="client-service" name="service" class="form-control">
+                <option value="Temple Sculptures & Murals">Temple Sculptures & Murals (Stone/Cement/Plaster)</option>
+                <option value="Temple Interior & Vimana/Gopuram Artwork">Temple Interior & Vimana/Gopuram Artwork</option>
+                <option value="Custom Deities & Sacred Wall Murals">Custom Deities, Sacred Wall Murals & 24K Gold Leaf</option>
+                <option value="General Custom Fine Art Commissions">General Custom Fine Art & Decorative Commissions</option>
+                <option value="Vastu & Architectural Temple Consultation">Vastu & Architectural Temple Consultation</option>
+              </select>
+              <div class="error-msg" id="err-service" style="display: none;"><i class="fa-solid fa-triangle-exclamation"></i> Please select a service.</div>
+            </div>
+
+            <div class="form-group">
+              <label class="form-label" for="client-message">Project Specifications / Deity Dimensions *</label>
+              <textarea id="client-message" name="message" class="form-control" placeholder="Please describe the deity, idol height, temple structure, or specific mural requirements..."></textarea>
+              <div class="error-msg" id="err-message" style="display: none;"><i class="fa-solid fa-triangle-exclamation"></i> Please provide project details (at least 10 characters).</div>
+            </div>
+
+            <button type="submit" class="btn btn-maroon" style="width: 100%; padding: 12px;">
+              <i class="fa-solid fa-paper-plane"></i> Submit Commission Inquiry
+            </button>
+          </form>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-col">
+          <div class="brand-logo" style="margin-bottom: 12px;">
+            <div class="brand-badge">
+              <div class="brand-badge-inner">SG</div>
+            </div>
+            <div>
+              <div class="brand-title" style="color: #FFFFFF;">Sree Guru Arts</div>
+              <div class="brand-subtitle" style="color: var(--color-gold);">Thorlakonda Guravaiah</div>
+            </div>
+          </div>
+          <p>
+            Preserving timeless sacred traditions through consecrated Hindu temple architecture, stone & cement sculptures, majestic Gopurams, and pure 24K gold foil devotional murals in strict adherence to Shilpa Shastras.
+          </p>
+          <div class="footer-socials">
+            <a href="https://wa.me/919704926504" target="_blank" class="footer-social-btn" aria-label="WhatsApp"><i class="fa-brands fa-whatsapp"></i></a>
+            <a href="tel:+919704926504" class="footer-social-btn" aria-label="Phone"><i class="fa-solid fa-phone"></i></a>
+            <a href="mailto:sreeguruarts@gmail.com" class="footer-social-btn" aria-label="Email"><i class="fa-solid fa-envelope"></i></a>
+          </div>
+        </div>
+
+        <div class="footer-col">
+          <h4>Quick Navigation</h4>
+          <ul class="footer-links">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About the Artist</a></li>
+            <li><a href="#services">Core Services</a></li>
+            <li><a href="#gallery">Temple Gallery</a></li>
+            <li><a href="#why-us">Why Choose Us</a></li>
+            <li><a href="#contact">Contact & Inquiry</a></li>
+          </ul>
+        </div>
+
+        <div class="footer-col">
+          <h4>Direct Contact</h4>
+          <ul class="footer-links">
+            <li><i class="fa-solid fa-user" style="color: var(--color-gold); margin-right: 6px;"></i> THORLAKONDA GURAVAIAH</li>
+            <li><i class="fa-solid fa-phone" style="color: var(--color-gold); margin-right: 6px;"></i> <a href="tel:+919704926504">+91 9704926504</a></li>
+            <li><i class="fa-solid fa-envelope" style="color: var(--color-gold); margin-right: 6px;"></i> <a href="mailto:sreeguruarts@gmail.com">sreeguruarts@gmail.com</a></li>
+            <li><i class="fa-brands fa-whatsapp" style="color: #25D366; margin-right: 6px;"></i> <a href="https://wa.me/919704926504" target="_blank">WhatsApp Direct</a></li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="footer-bottom">
+        <div>
+          &copy; <span id="current-year"></span> Sree Guru Arts - THORLAKONDA GURAVAIAH. All Rights Reserved.
+        </div>
+        <div class="back-to-top" id="back-to-top">
+          <span>Back to Top</span>
+          <i class="fa-solid fa-arrow-up"></i>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Floating Mobile Quick Actions -->
+  <div class="floating-cta">
+    <a href="tel:+919704926504" class="floating-btn floating-phone" aria-label="Call Master Artist"><i class="fa-solid fa-phone"></i></a>
+    <a href="https://wa.me/919704926504" target="_blank" class="floating-btn floating-whatsapp" aria-label="WhatsApp Master Artist"><i class="fa-brands fa-whatsapp"></i></a>
+  </div>
+
+  <!-- Interactive JavaScript Embedded in Script Tag -->
+  <script>
+    document.addEventListener('DOMContentLoaded', function () {
+      // Set current year
+      document.getElementById('current-year').textContent = new Date().getFullYear();
+
+      // Sticky Header
+      var navbar = document.getElementById('navbar');
+      window.addEventListener('scroll', function () {
+        if (window.scrollY > 30) {
+          navbar.classList.add('scrolled');
+        } else {
+          navbar.classList.remove('scrolled');
+        }
+      });
+
+      // Mobile Menu Toggle
+      var hamburgerBtn = document.getElementById('hamburger-btn');
+      var mobileMenu = document.getElementById('mobile-menu');
+      if (hamburgerBtn && mobileMenu) {
+        hamburgerBtn.addEventListener('click', function () {
+          mobileMenu.classList.toggle('open');
+          var icon = hamburgerBtn.querySelector('i');
+          if (mobileMenu.classList.contains('open')) {
+            icon.classList.remove('fa-bars');
+            icon.classList.add('fa-xmark');
+          } else {
+            icon.classList.remove('fa-xmark');
+            icon.classList.add('fa-bars');
+          }
+        });
+
+        // Close mobile menu on clicking nav link
+        var mobileLinks = document.querySelectorAll('.mobile-nav-link');
+        mobileLinks.forEach(function (link) {
+          link.addEventListener('click', function () {
+            mobileMenu.classList.remove('open');
+            var icon = hamburgerBtn.querySelector('i');
+            icon.classList.remove('fa-xmark');
+            icon.classList.add('fa-bars');
+          });
+        });
+      }
+
+      // Back to Top Button
+      var backToTopBtn = document.getElementById('back-to-top');
+      if (backToTopBtn) {
+        backToTopBtn.addEventListener('click', function () {
+          window.scrollTo({ top: 0, behavior: 'smooth' });
+        });
+      }
+
+      // Filterable Gallery
+      var filterButtons = document.querySelectorAll('.filter-btn');
+      var galleryCards = document.querySelectorAll('.gallery-card');
+
+      filterButtons.forEach(function (btn) {
+        btn.addEventListener('click', function () {
+          filterButtons.forEach(function (b) { b.classList.remove('active'); });
+          this.classList.add('active');
+
+          var selectedCategory = this.getAttribute('data-filter');
+
+          galleryCards.forEach(function (card) {
+            var itemCategory = card.getAttribute('data-category');
+            if (selectedCategory === 'all' || itemCategory === selectedCategory) {
+              card.style.display = 'flex';
+            } else {
+              card.style.display = 'none';
+            }
+          });
+        });
+      });
+
+      // Lightbox Modal
+      var lightbox = document.getElementById('lightbox-modal');
+      var lightboxClose = document.getElementById('lightbox-close');
+      var modalImg = document.getElementById('modal-img');
+      var modalTitle = document.getElementById('modal-title');
+      var modalCategory = document.getElementById('modal-category');
+      var modalDesc = document.getElementById('modal-desc');
+      var modalMedium = document.getElementById('modal-medium');
+      var modalDimensions = document.getElementById('modal-dimensions');
+      var modalWhatsappLink = document.getElementById('modal-whatsapp-link');
+
+      galleryCards.forEach(function (card) {
+        card.addEventListener('click', function () {
+          var title = this.getAttribute('data-title');
+          var category = this.getAttribute('data-category');
+          var medium = this.getAttribute('data-medium');
+          var dimensions = this.getAttribute('data-dimensions');
+          var desc = this.getAttribute('data-desc');
+          var image = this.getAttribute('data-image');
+
+          modalTitle.textContent = title;
+          modalCategory.textContent = category.replace('-', ' ').toUpperCase();
+          modalDesc.textContent = desc;
+          modalMedium.textContent = medium;
+          modalDimensions.textContent = dimensions;
+          modalImg.src = image;
+
+          var waMessage = encodeURIComponent('Namaste Thorlakonda Guravaiah garu, I am interested in inquiring about "' + title + '" (' + medium + ').');
+          modalWhatsappLink.href = 'https://wa.me/919704926504?text=' + waMessage;
+
+          lightbox.classList.add('active');
+          document.body.style.overflow = 'hidden';
+        });
+      });
+
+      function closeLightbox() {
+        lightbox.classList.remove('active');
+        document.body.style.overflow = 'auto';
+      }
+
+      if (lightboxClose) {
+        lightboxClose.addEventListener('click', closeLightbox);
+      }
+
+      if (lightbox) {
+        lightbox.addEventListener('click', function (e) {
+          if (e.target === lightbox) {
+            closeLightbox();
+          }
+        });
+      }
+
+      // Close lightbox on Escape key
+      document.addEventListener('keydown', function (e) {
+        if (e.key === 'Escape' && lightbox.classList.contains('active')) {
+          closeLightbox();
+        }
+      });
+
+      // Form Validation and Submission
+      var form = document.getElementById('inquiry-form');
+      var successBanner = document.getElementById('form-success-banner');
+      var forwardWhatsappBtn = document.getElementById('forward-whatsapp-btn');
+
+      if (form) {
+        form.addEventListener('submit', function (e) {
+          e.preventDefault();
+
+          var nameInput = document.getElementById('client-name');
+          var phoneInput = document.getElementById('client-phone');
+          var emailInput = document.getElementById('client-email');
+          var serviceInput = document.getElementById('client-service');
+          var messageInput = document.getElementById('client-message');
+
+          var errName = document.getElementById('err-name');
+          var errPhone = document.getElementById('err-phone');
+          var errEmail = document.getElementById('err-email');
+          var errService = document.getElementById('err-service');
+          var errMessage = document.getElementById('err-message');
+
+          var isValid = true;
+
+          // Name validation
+          if (!nameInput.value.trim() || nameInput.value.trim().length < 2) {
+            nameInput.classList.add('error');
+            errName.style.display = 'flex';
+            isValid = false;
+          } else {
+            nameInput.classList.remove('error');
+            errName.style.display = 'none';
+          }
+
+          // Phone validation
+          var cleanPhone = phoneInput.value.replace(/[\s\-\(\)\+]/g, '');
+          if (!cleanPhone || cleanPhone.length < 10) {
+            phoneInput.classList.add('error');
+            errPhone.style.display = 'flex';
+            isValid = false;
+          } else {
+            phoneInput.classList.remove('error');
+            errPhone.style.display = 'none';
+          }
+
+          // Email validation (optional but validated if provided)
+          if (emailInput.value.trim()) {
+            var emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+            if (!emailRegex.test(emailInput.value.trim())) {
+              emailInput.classList.add('error');
+              errEmail.style.display = 'flex';
+              isValid = false;
+            } else {
+              emailInput.classList.remove('error');
+              errEmail.style.display = 'none';
+            }
+          } else {
+            emailInput.classList.remove('error');
+            errEmail.style.display = 'none';
+          }
+
+          // Message validation
+          if (!messageInput.value.trim() || messageInput.value.trim().length < 10) {
+            messageInput.classList.add('error');
+            errMessage.style.display = 'flex';
+            isValid = false;
+          } else {
+            messageInput.classList.remove('error');
+            errMessage.style.display = 'none';
+          }
+
+          if (isValid) {
+            // Success State
+            successBanner.style.display = 'block';
+            var waText = encodeURIComponent(
+              'Namaste Thorlakonda Guravaiah garu,\n\n' +
+              'New Commission Inquiry from Website:\n' +
+              '• Name: ' + nameInput.value.trim() + '\n' +
+              '• Phone: ' + phoneInput.value.trim() + '\n' +
+              '• Service: ' + serviceInput.value + '\n' +
+              '• Message: ' + messageInput.value.trim()
+            );
+            forwardWhatsappBtn.href = 'https://wa.me/919704926504?text=' + waText;
+
+            // Reset form fields
+            form.reset();
+            successBanner.scrollIntoView({ behavior: 'smooth', block: 'center' });
+          }
+        });
+      }
+    });
+  </script>
+</body>
+</html>
